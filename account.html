@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>All Products FashionStore  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="container">
+        
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png"  id="image0">
+            </div>
+            <nav>
+                <ul menu itemid="">
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="account.html">Login</a></li>
+                </ul>
+                      
+            </nav> 
+            <a href="product details.html"><img src="images/image2.png" width="30px"></a>
+            <a href="cart.html"><img src="images/menu.png" class="menu-icon"></a>
+        </div> 
+    </div>
+
+<!---------------account page------------>
+<div class="account-page">
+   
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image1.png" width="600px">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+            <div class="form-btn">
+                <span onclick="Login()">Login</span>
+            
+            </div>
+                <form id="LoginForm">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <input type="email" placeholder="Email">
+                    <button type="Submit" class="btn">Login</button> 
+                    <a href="">Forgot password</a>
+                </form>   
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+<!----------footer----------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="no-7">
+                <h3>Download Our App</h3>
+                <p>Downlaod App for Android and Ios.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="no-8">
+                <img src="images/logo8.jpg" width="100px">
+                <p>Fashion Store has the latest brands to wipe their<br>
+                    social media accounts ahead of a major launch.</p>
+            </div>
+            <div class="row">
+                <div class="no-9">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>coupens</li>
+                        <li>Blog post</li>
+                        <li>Return policy</li>
+                        <li>Join affiliate</li>
+                    </ul>
+        </div>
+            <div class="no-10">
+                <h3>Follow Us</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+    </div>
+</div>
+     <hr>
+     <p class="copyright">copyright 2021-Fashion Store</p>
+   </div>
+   </div>
+<!--------------js for toggle form----------->
+
+<script>
+    var LoginForm = document.getElementById("LoginForm");
+   
+    function login(){
+        LoginForm.style.transform = "translateX(300px)";
+    }
+</script>
+     
+
+
+
+
+
+
+</body>
